@@ -1,1 +1,1 @@
-# A bloat free no ads and ghost GBA Emu on your Browser.
+# Hopefully a replica of a Schoology class page that offers GBA games instead.
