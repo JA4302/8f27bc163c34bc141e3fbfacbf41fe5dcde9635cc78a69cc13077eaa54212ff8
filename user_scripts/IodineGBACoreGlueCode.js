@@ -171,9 +171,6 @@ function registerGUIEvents() {
     addEvent("keydown", document, keyDown);
     addEvent("keyup", document, keyUpPreprocess);
     addEvent("unload", window, ExportSave);
-    Iodine.attachSpeedHandler(function (speed) {
-        document.title = games[location.hash.substr(1)] + " - " + speed;
-    });
 }
 function lowerVolume() {
     Iodine.incrementVolume(-0.04);
